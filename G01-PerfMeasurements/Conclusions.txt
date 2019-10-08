@@ -1,0 +1,47 @@
+-------
+dhrystone
+
+gcc -march=native -o dhry dhrystone.c 
+gcc -march=native -o dhry_O3 dhrystone.c -O3
+
+-> Analisa operações em virgula fixa, atribuições, diferentes modos de endereçamento
+-> Executado pelo menos 10 milhões de vezes
+
+-------
+whetstone
+
+gcc -march=native -o whet whetstone.c -lm
+gcc -march=native -o whet_O3 whetstone.c -lm -O3
+
+-> Analisa operações em virgula fluante
+
+-------
+Compiler can optimize (-O0-3, -Os, -0g) less or more
+
+-------
+prime_v1
+
+gcc -march=native -o prime_v1 prime_v1.c -lm
+gcc -march=native -o prime_v1_O3 prime_v1.c -lm -O3
+
+-> Computacionalmente intensivo, usa pouca memória
+
+prime_v2
+
+-> Computacionalmente menos intenso, usa mais memória
+
+gcc -march=native -o prime_v2 prime_v2.c -lm
+gcc -march=native -o prime_v2_O3 prime_v2.c -lm -O3
+
+-------
+crypt
+new_crypt
+
+-> 1 GB de memória
+-> Diferença está no acesso à memória sequencial ou não
+
+gcc -march=native -o crypt crypt.c -lm
+gcc -march=native -o crypt_O3 crypt.c -lm -O3
+
+gcc -march=native -o newCrypt newCrypt.c -lm
+gcc -march=native -o newCrypt_O3 newCrypt.c -lm -O3

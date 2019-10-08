@@ -1,0 +1,1 @@
+-> Optimizer has performance gains but debugging is harder. Read references on techniques to optimize
