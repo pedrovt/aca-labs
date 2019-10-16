@@ -1,0 +1,21 @@
+Without forwarding
+-> Data Hazzards: 2 nops
+-> Control Hazzards: 3 nops
+
+With forwarding
+-> Data hazzards: either 0 or 1 nop, depends on the sequence of instructions (1 nop if it's a lw then something else)
+-> Control hazzards: from 3 nops to 2 nops (distance 2 between EX/MEM and the ID phase)
+
+Professors' version goes from 156 cycles to 102 with forwarding
+
+With branch predictor 
+-> Bugs on the simulator, only the static versions work
+-> Will gain 1 slot
+-> In this situation
+	-> Use Predict-Not-Taken (default) -> 102 cycles -> not good, the program has 9 consecutives branch taken, 1 not taken
+	-> Use Predict-Taken -> 95 cycles  -> better!!
+		- 1 nop is not done per cycle -> 102 - 9*1 = 93 
+		- but we got 95??? 
+			> bugs on the simulation -> +1 nop
+			> last jump done but not supposed -> +1 nop to delete
+-> Static Backward Always Taken: if the jump is backwards, assumes it's taken
