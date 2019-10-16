@@ -1,0 +1,12 @@
+;int[] values = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+;uint numElems = 10;
+;int i, j;
+;int temp;
+
+;for (i = 0; i < numElems - 1 ; i++) 
+;	for (j = i+1; j < numElems; j++)
+;		if (values[j] > values[i]) {
+;			temp = values[i]
+;			values[i] = values[j]
+;			values[j] = temp;
+;		}
