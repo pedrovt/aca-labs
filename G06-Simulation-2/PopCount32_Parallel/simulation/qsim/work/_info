@@ -1,0 +1,315 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pedro/Documents/UA/ACA/ACA/G06-Simulation-2/PopCount32_Parallel/simulation/qsim
+Earithmetic
+Z1 w1572455711
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8PopCount32_Parallel.vho
+Z9 FPopCount32_Parallel.vho
+l0
+L77
+Vz=Gg;iC?F9=_aMJ_XL6d]0
+!s100 ?ZfMH07W[2ARB^eU`94en2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1572455712
+!i10b 1
+Z12 !s108 1572455712.000000
+Z13 !s90 -work|work|PopCount32_Parallel.vho|
+Z14 !s107 PopCount32_Parallel.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 arithmetic 0 22 z=Gg;iC?F9=_aMJ_XL6d]0
+l157
+L107
+V@YS]YXKBSA4HNN>Uj`NAQ2
+!s100 KEKAVe6]2BX[Oo?E?^j6b0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Earithmetic_vhd_vec_tst
+Z17 w1572455710
+R5
+R6
+R0
+Z18 8FullAdder5Bits.vwf.vht
+Z19 FFullAdder5Bits.vwf.vht
+l0
+L31
+Vlk2h2lcAHz9GE1T98`bM>1
+!s100 bXa<nfa@kigNdbgNDi;d51
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|FullAdder5Bits.vwf.vht|
+Z21 !s107 FullAdder5Bits.vwf.vht|
+!i113 1
+R15
+R16
+Aarithmetic_arch
+R5
+R6
+DEx4 work 22 arithmetic_vhd_vec_tst 0 22 lk2h2lcAHz9GE1T98`bM>1
+l50
+L33
+V7D__m4c>Bhf<LVHGVJ5aH2
+!s100 hBXH?bbQ?WQlkOaL5iO4n3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ehard_block
+Z22 w1572462947
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+32
+Z23 !s110 1572462948
+!i10b 1
+Z24 !s108 1572462948.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Epopcount32_parallel
+R22
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L77
+VE<Fo;K=IagnKz7OjTC]572
+!s100 e8R6VH?@AICjBodML8<gn3
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 19 popcount32_parallel 0 22 E<Fo;K=IagnKz7OjTC]572
+l257
+L125
+V`CgDU1]PzeEn6UWobb9SI0
+!s100 _jW5gz@fE3ZkFW_TjM5dl1
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Epopcount32_parallel_vhd_vec_tst
+Z25 w1572462946
+R5
+R6
+R0
+Z26 8PopCount32_Parallel.vwf.vht
+Z27 FPopCount32_Parallel.vwf.vht
+l0
+L31
+VFSbN7[kZ]2aTOeA;l<IH`2
+!s100 WlJJ6jH`JbB_HZNDY?FjS0
+R10
+32
+R23
+!i10b 1
+R24
+Z28 !s90 -work|work|PopCount32_Parallel.vwf.vht|
+Z29 !s107 PopCount32_Parallel.vwf.vht|
+!i113 1
+R15
+R16
+Apopcount32_parallel_arch
+R5
+R6
+Z30 DEx4 work 31 popcount32_parallel_vhd_vec_tst 0 22 FSbN7[kZ]2aTOeA;l<IH`2
+l44
+L33
+VF@?;WP8QAi:K=BKDOok9B3
+!s100 XPcABk:;PHcb7jZ[F:KjQ3
+R10
+32
+R23
+!i10b 1
+R24
+R28
+R29
+!i113 1
+R15
+R16
+Epopcount4bits
+Z31 w1572455367
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L77
+V=f^S>D5nPh]nQ9UZ38aL=3
+!s100 3aNfRDMDde2o5[aWG8Km@1
+R10
+32
+Z32 !s110 1572455367
+!i10b 1
+Z33 !s108 1572455367.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 popcount4bits 0 22 =f^S>D5nPh]nQ9UZ38aL=3
+l124
+L94
+VjMa7N>_@18?f^k@FS183[2
+!s100 Al3gMMiO;e5Q7^EHRN?KU0
+R10
+32
+R32
+!i10b 1
+R33
+R13
+R14
+!i113 1
+R15
+R16
+Epopcount4bits_vhd_vec_tst
+Z34 w1572455366
+R5
+R6
+R0
+Z35 8PopCount4Bits.vwf.vht
+Z36 FPopCount4Bits.vwf.vht
+l0
+L31
+VM11Wj7?=SVT05K=QeY7:k1
+!s100 =l4z43J4>4SH=M:?OUa^92
+R10
+32
+Z37 !s110 1572455368
+!i10b 1
+Z38 !s108 1572455368.000000
+Z39 !s90 -work|work|PopCount4Bits.vwf.vht|
+Z40 !s107 PopCount4Bits.vwf.vht|
+!i113 1
+R15
+R16
+Apopcount4bits_arch
+R5
+R6
+DEx4 work 25 popcount4bits_vhd_vec_tst 0 22 M11Wj7?=SVT05K=QeY7:k1
+l44
+L33
+VYzOmV4GkNDO@XINz[]K>n0
+!s100 =7<nIgPY4f02biED>hV_H2
+R10
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R15
+R16

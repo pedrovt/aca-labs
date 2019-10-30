@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 30 19:14:13 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : PopCount32_Parallel
+Top-level Entity Name : popCount32_Parallel
+Family : Cyclone IV E
+Total logic elements : 74
+    Total combinational functions : 74
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 38
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

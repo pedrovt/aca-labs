@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[28]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[29]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[30]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[31]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[24]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[25]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[26]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[27]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[20]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[21]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[22]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[23]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[16]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[17]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[18]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[19]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dIn[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,685 @@
+|PopCount32_Parallel
+dIn[0] => popCount4Bits:pc4_8.dIn[0]
+dIn[1] => popCount4Bits:pc4_8.dIn[1]
+dIn[2] => popCount4Bits:pc4_8.dIn[2]
+dIn[3] => popCount4Bits:pc4_8.dIn[3]
+dIn[4] => popCount4Bits:pc4_7.dIn[0]
+dIn[5] => popCount4Bits:pc4_7.dIn[1]
+dIn[6] => popCount4Bits:pc4_7.dIn[2]
+dIn[7] => popCount4Bits:pc4_7.dIn[3]
+dIn[8] => popCount4Bits:pc4_6.dIn[0]
+dIn[9] => popCount4Bits:pc4_6.dIn[1]
+dIn[10] => popCount4Bits:pc4_6.dIn[2]
+dIn[11] => popCount4Bits:pc4_6.dIn[3]
+dIn[12] => popCount4Bits:pc4_5.dIn[0]
+dIn[13] => popCount4Bits:pc4_5.dIn[1]
+dIn[14] => popCount4Bits:pc4_5.dIn[2]
+dIn[15] => popCount4Bits:pc4_5.dIn[3]
+dIn[16] => popCount4Bits:pc4_4.dIn[0]
+dIn[17] => popCount4Bits:pc4_4.dIn[1]
+dIn[18] => popCount4Bits:pc4_4.dIn[2]
+dIn[19] => popCount4Bits:pc4_4.dIn[3]
+dIn[20] => popCount4Bits:pc4_3.dIn[0]
+dIn[21] => popCount4Bits:pc4_3.dIn[1]
+dIn[22] => popCount4Bits:pc4_3.dIn[2]
+dIn[23] => popCount4Bits:pc4_3.dIn[3]
+dIn[24] => popCount4Bits:pc4_2.dIn[0]
+dIn[25] => popCount4Bits:pc4_2.dIn[1]
+dIn[26] => popCount4Bits:pc4_2.dIn[2]
+dIn[27] => popCount4Bits:pc4_2.dIn[3]
+dIn[28] => popCount4Bits:pc4_1.dIn[0]
+dIn[29] => popCount4Bits:pc4_1.dIn[1]
+dIn[30] => popCount4Bits:pc4_1.dIn[2]
+dIn[31] => popCount4Bits:pc4_1.dIn[3]
+count[0] << fullAdder5bit:fullAdder5bit_1.s[0]
+count[1] << fullAdder5bit:fullAdder5bit_1.s[1]
+count[2] << fullAdder5bit:fullAdder5bit_1.s[2]
+count[3] << fullAdder5bit:fullAdder5bit_1.s[3]
+count[4] << fullAdder5bit:fullAdder5bit_1.s[4]
+count[5] << fullAdder5bit:fullAdder5bit_1.cOut
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_1
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_2
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_3
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_4
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_5
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_6
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_7
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|popCount4Bits:pc4_8
+dIn[0] => count.IN1
+dIn[0] => count.IN0
+dIn[0] => count.IN1
+dIn[0] => count.IN1
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[1] => count.IN0
+dIn[1] => count.IN1
+dIn[2] => count.IN0
+dIn[2] => count.IN1
+dIn[2] => count.IN1
+dIn[2] => count.IN0
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+dIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_1
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder2.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_1|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_1|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_1|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_2
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder2.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_2|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_2|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_2|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_3
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder2.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_3|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_3|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_3|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_4
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder2.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_4|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_4|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder3bit:fullAdder3bit_4|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_1
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+a[3] => fullAdder1bit:adder3.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+b[3] => fullAdder1bit:adder3.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder3.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+s[3] <= fullAdder1bit:adder3.s
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_1|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_1|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_1|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_1|fullAdder1bit:adder3
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_2
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+a[3] => fullAdder1bit:adder3.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+b[3] => fullAdder1bit:adder3.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder3.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+s[3] <= fullAdder1bit:adder3.s
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_2|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_2|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_2|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder4bit:fullAdder4bit_2|fullAdder1bit:adder3
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1
+a[0] => fullAdder1bit:adder0.a
+a[1] => fullAdder1bit:adder1.a
+a[2] => fullAdder1bit:adder2.a
+a[3] => fullAdder1bit:adder3.a
+a[4] => fullAdder1bit:adder4.a
+b[0] => fullAdder1bit:adder0.b
+b[1] => fullAdder1bit:adder1.b
+b[2] => fullAdder1bit:adder2.b
+b[3] => fullAdder1bit:adder3.b
+b[4] => fullAdder1bit:adder4.b
+cIn => fullAdder1bit:adder0.cIn
+cOut <= fullAdder1bit:adder4.cOut
+s[0] <= fullAdder1bit:adder0.s
+s[1] <= fullAdder1bit:adder1.s
+s[2] <= fullAdder1bit:adder2.s
+s[3] <= fullAdder1bit:adder3.s
+s[4] <= fullAdder1bit:adder4.s
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1|fullAdder1bit:adder0
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1|fullAdder1bit:adder1
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1|fullAdder1bit:adder2
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1|fullAdder1bit:adder3
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PopCount32_Parallel|fullAdder5bit:fullAdder5bit_1|fullAdder1bit:adder4
+a => cOut.IN0
+a => cOut.IN0
+a => s.IN0
+b => cOut.IN1
+b => cOut.IN0
+b => s.IN1
+cIn => cOut.IN1
+cIn => cOut.IN1
+cIn => s.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

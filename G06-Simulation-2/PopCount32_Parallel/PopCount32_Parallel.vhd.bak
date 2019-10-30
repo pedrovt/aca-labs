@@ -1,0 +1,14 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY PopCount32_Parallel IS
+  PORT (dIn : a, b	: IN STD_LOGIC;
+        s, carryOut	: OUT STD_LOGIC);
+END PopCount32_Parallel;
+
+ARCHITECTURE logicFunction OF HalfAdder IS
+
+BEGIN
+	s <= a xor b;
+	carryOut <= a and b;
+END logicFunction;
