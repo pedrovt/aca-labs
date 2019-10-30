@@ -1,0 +1,14 @@
+From ~1300 cycles, ~620 are effective instructions, the rest is nops!!
+
+with forwarding, 887 cycles, ~620 are effective instructions -> much small impact
+
+but still without branch prediction (by defauly branch not taken)
+
+but branch taken? should be better?
+no because we have the if, so compensates the rest
+
+with MIPS compatibiliy mode (ie with Branch Delayed Slot and interlocking), it's even possible to eliminate the nops (with some rearraging of the instructions). around ~30 nops, 5% with branch not taken
+
+with MIPS compatiblity mode and branch taken, results are a bit worse
+
+Static predicition works very well for some programs, for others does not work so well

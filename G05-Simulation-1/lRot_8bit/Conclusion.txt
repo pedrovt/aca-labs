@@ -1,0 +1,58 @@
+if sel(0) = 0
+   no rotation
+else
+   rotation 1 bit left
+
+if sel(1) = 0
+   no rotation
+else
+   rotation 2 bit left
+
+if sel(2) = 0
+   no rotation
+else
+   rotation 4 bit left
+
+
+rotation
+- associativa
+- comutativa
+- tem elemento neutro
+- tem elemento simétrico 
+
+Grupo abeliano!
+
+# rotações à esquerda := rot(1) * sel (0) + rot(2) * sel(1) + rot(4) * sel(2)
+                       =  1=2^0			2=2^1		4=2^2
+sel => nº bits a rodar
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+R/L
+
+
+
+is it possible to convert from binary to Grey?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

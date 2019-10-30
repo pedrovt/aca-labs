@@ -1,0 +1,197 @@
+$comment
+	File created using the following command:
+		vcd file FlipFlopD.msim.vcd -direction
+$end
+$date
+	Tue Oct 22 16:47:26 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module flipflopd_vhd_vec_tst $end
+$var wire 1 ! clk $end
+$var wire 1 " D $end
+$var wire 1 # nQ $end
+$var wire 1 $ nRst $end
+$var wire 1 % nSet $end
+$var wire 1 & Q $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var wire 1 * devoe $end
+$var wire 1 + devclrn $end
+$var wire 1 , devpor $end
+$var wire 1 - ww_devoe $end
+$var wire 1 . ww_devclrn $end
+$var wire 1 / ww_devpor $end
+$var wire 1 0 ww_clk $end
+$var wire 1 1 ww_D $end
+$var wire 1 2 ww_nSet $end
+$var wire 1 3 ww_nRst $end
+$var wire 1 4 ww_Q $end
+$var wire 1 5 ww_nQ $end
+$var wire 1 6 \Q~output_o\ $end
+$var wire 1 7 \nQ~output_o\ $end
+$var wire 1 8 \nRst~input_o\ $end
+$var wire 1 9 \D~input_o\ $end
+$var wire 1 : \nSet~input_o\ $end
+$var wire 1 ; \clk~input_o\ $end
+$var wire 1 < \lock~0_combout\ $end
+$var wire 1 = \ckQ~3_combout\ $end
+$var wire 1 > \ckQ~4_combout\ $end
+$var wire 1 ? \iQ~0_combout\ $end
+$var wire 1 @ \iNQ~0_combout\ $end
+$var wire 1 A \iQ~1_combout\ $end
+$var wire 1 B \iNQ~1_combout\ $end
+$var wire 1 C \ALT_INV_iQ~1_combout\ $end
+$var wire 1 D \ALT_INV_iNQ~1_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+1&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+1.
+1/
+00
+01
+02
+13
+14
+05
+16
+07
+18
+09
+0:
+0;
+0<
+0=
+1>
+0?
+1@
+0A
+1B
+1C
+0D
+$end
+#10000
+1%
+1"
+12
+11
+19
+1:
+1=
+1?
+#30000
+0"
+01
+09
+#40000
+1!
+10
+1;
+0>
+0=
+0@
+1A
+0B
+1<
+1>
+1D
+0C
+1@
+06
+17
+04
+15
+0&
+1#
+#50000
+1"
+11
+19
+#70000
+0"
+01
+09
+#80000
+0!
+00
+0;
+0<
+1=
+#100000
+1"
+11
+19
+#120000
+1!
+10
+1;
+0>
+0=
+0?
+0A
+1<
+1>
+1C
+1?
+1B
+0D
+16
+14
+07
+1&
+05
+0#
+#130000
+0"
+01
+09
+#140000
+0$
+03
+08
+0@
+1A
+0B
+1D
+0C
+06
+17
+04
+15
+0&
+1#
+#160000
+0!
+00
+0;
+0<
+#170000
+1$
+13
+18
+1=
+1@
+#200000

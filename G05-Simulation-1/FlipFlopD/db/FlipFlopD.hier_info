@@ -1,0 +1,18 @@
+|FlipFlopD
+clk => ckQ.IN0
+clk => lock.IN1
+clk => nLock.IN1
+D => nTrigSet.IN0
+D => nTrigRst.IN0
+nSet => ckQ.IN1
+nSet => nTrigRst.IN1
+nSet => nLock.IN1
+nSet => iQ.IN0
+nRst => ckQ.IN1
+nRst => nTrigSet.IN1
+nRst => nLock.IN1
+nRst => iNQ.IN1
+Q << Q.DB_MAX_OUTPUT_PORT_TYPE
+nQ << iNQ.DB_MAX_OUTPUT_PORT_TYPE
+
+
