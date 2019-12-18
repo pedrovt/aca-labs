@@ -48,13 +48,13 @@ END structure;
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY lRot_8bit IS
-  PORT (dIn: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+ENTITY blk12ofblk8of2to1mult IS
+  PORT (dIn: IN STD_LOGIC_VECTOR (95 DOWNTO 0);
         sel: IN STD_LOGIC_VECTOR (2 DOWNTO 0);
-        dOut: OUT STD_LOGIC_VECTOR (7 DOWNTO 0));
-END lRot_8bit;
+        dOut: OUT STD_LOGIC_VECTOR (11 DOWNTO 0));
+END blk12ofblk8of2to1mult;
 
-ARCHITECTURE structure OF lRot_8bit IS
+ARCHITECTURE structure OF blk12ofblk8of2to1mult IS
   SIGNAL Z01: STD_LOGIC_VECTOR (7 DOWNTO 0);
   SIGNAL Z12: STD_LOGIC_VECTOR (7 DOWNTO 0);
   COMPONENT blk8of2to1mult
@@ -70,19 +70,19 @@ ARCHITECTURE structure OF lRot_8bit IS
           y0, y1, y2, y3, y4, y5, y6, y7: OUT STD_LOGIC);
   END COMPONENT;
 BEGIN
-  blk0: blk8of2to1mult PORT MAP (dIn(0), dIn(7),
-                                 dIn(1), dIn(0),
-                                 dIn(2), dIn(1),
-                                 dIn(3), dIn(2),
-                                 dIn(4), dIn(3),
-                                 dIn(5), dIn(4),
-                                 dIn(6), dIn(5),
-                                 dIn(7), dIn(6),
+  blk0: blk8of2to1mult PORT MAP (dIn(0), dIn(1),
+                                 dIn(2), dIn(3),
+                                 dIn(4), dIn(5),
+                                 dIn(6), dIn(7),
+                                 dIn(8), dIn(9),
+                                 dIn(10), dIn(11),
+                                 dIn(12), dIn(13),
+                                 dIn(14), dIn(15),
                                  sel(0),
-                                 z01(0), z01(1),
-                                 z01(2), z01(3),
-                                 z01(4), z01(5),
-                                 z01(6), z01(7));
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
   blk1: blk8of2to1mult PORT MAP (z01(0), z01(6),
                                  z01(1), z01(7),
                                  z01(2), z01(0),
@@ -109,4 +109,83 @@ BEGIN
                                  dOut(2), dOut(3),
                                  dOut(4), dOut(5),
                                  dOut(6), dOut(7));
+  blk3: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+  blk4: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+  blk5: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+  blk6: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+  blk8: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+    blk6: blk8of2to1mult PORT MAP (z12(0), z12(4),
+                                 z12(1), z12(5),
+                                 z12(2), z12(6),
+                                 z12(3), z12(7),
+                                 z12(4), z12(0),
+                                 z12(5), z12(1),
+                                 z12(6), z12(2),
+                                 z12(7), z12(3),
+                                 sel(2),
+                                 dOut(0), dOut(1),
+                                 dOut(2), dOut(3),
+                                 dOut(4), dOut(5),
+                                 dOut(6), dOut(7));
+
 END structure;

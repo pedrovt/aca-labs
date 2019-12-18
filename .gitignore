@@ -2,3 +2,15 @@
 G02-PerfEvaluations/
 
 G03-Pipeline-1/
+
+*.zip
+
+*.pdf
+
+G06-Simulation-2/Given-Version/popCounter_32bitSerial/simulation/
+
+G06-Simulation-2/Given-Version/popCounter_32bitSerial/output_files/
+
+G06-Simulation-2/Given-Version/popCounter_32bitSerial/incremental_db/
+
+G06-Simulation-2/Given-Version/popCounter_32bitSerial/db/
